@@ -1,0 +1,786 @@
+ <!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>CSS BOX MODEL</title>
+    <style>
+    
+   abcd{
+    color:hsla(100, 100%, 45%, 0.684);
+    }
+    #CSS{
+          color:#6de200;
+          border: 4px solid#ff0000;
+          padding-left:300px;
+          margin-left: 230px;
+          margin-right: 230px;
+    }
+   .css{
+    color:black;
+         background-color:slategrey;
+         padding:0px 0px 0px 500px;
+         margin-left: 200px;
+         margin-right:150px;
+   }
+   .a{
+    border:4px solid silver;
+    background-color:white;
+         padding-left:10px;
+         padding-right:10px;
+         margin-left: 200px;
+         margin-right:150px;
+        font-family:Arial, Helvetica, sans-serif;
+   }
+   .box{
+       border:4px solid brown;
+       padding-left:10px;
+       margin:20px 150px 20px 200px;
+   }
+   #box{ 
+       color:#ff0000;
+       font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   }
+   .pic{
+          border:firebrick solid;
+          width:250px;
+          padding:10px;
+      }
+      .home{
+          background-color: slategray;
+          padding-left: 500px;
+          margin-left:100px;
+          margin-right:100px;
+          border-bottom:2px solid black;
+      }
+    .wel{
+         padding:10px;
+         margin-left:50px;
+         margin-right:50px;
+         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .ho{
+        background-color: bisque;
+        padding-left:500px;
+         margin:10px 20px;
+    }
+  .we{
+    border-bottom: black solid;
+  }
+    .hu{
+        border: 2px #6de200 solid;
+        list-style: none;
+        padding:10px;
+    }
+    .ha{
+         border:2px red dotted;
+         text-align:center;
+    }
+    .hj{
+        border-bottom: 2px solid;
+        display:inline-block;
+        margin: 10px 20px;
+    }
+    hr{
+        margin-left: 0;
+        border-bottom:4px solid;
+        margin-right:950px;
+    }
+    #lo{
+        border:10px solid #ff0000;
+        background-color:#6de200;
+        padding:50px 100px;
+        margin-right:1000px;
+        width:400px;
+        font-size: 15px;
+    }
+   #sing{
+        padding-left:20px;
+        padding:10px 20px 20px;
+        text-align:center;
+        border:7px solid red;
+        margin-top: 10px;
+        margin-left:650px;
+        margin-right: 500px;
+   }
+   .si{
+     text-align:center;
+   }
+ .bu{
+    color:black;
+    background-color: blueviolet;
+ }
+#in{
+    font-size:200px;
+    color:maroon;
+    /* text-decoration:underline wavy red ; */
+    /* text-decoration:line-through wavy red ; */
+    /* border-bottom: solid #ff0000; */
+    
+    
+}
+.ht:link{
+      color:#6de200;  
+}
+.ht:visited{
+    color:#ff0000;
+}
+.ht:hover{
+    color:black;
+}
+.font{
+       font-size: 20px;
+       line-height: 30px;
+       word-spacing:8px;
+       letter-spacing: 2px;
+}
+p:nth-child(2n){
+    /* colo:blue; */
+}
+p:nth-of-type(2 ){
+    /* color:#6de200; */
+     
+}
+.ro:not(p){
+     /* color:aqua; */
+}
+:not(.fancy){
+       /* color:black;  */
+}
+ .ra::first-line{
+      font-size: 50px; 
+ }
+.ro::first-letter{
+      font-size:80px;
+}
+.ro::first-letter{
+    font-size:60px;
+}
+.before::before{
+     content: 'i am';
+     font-size: 100px;
+     color:blue;
+     /* display: block; */
+}
+.after::after{
+    content: 'chandel';
+     font-size: 100px;
+     color:blue;
+     /* display: block; */
+}
+.there{
+    font-size: 20%;
+    font-size: 200%;
+    border:2px solid #ff0000;
+    text-align: center;
+    background: lightseagreen;
+    margin: 2px auto;
+    width: 50%;
+}
+
+.te{
+    border:4px solid blue;
+    width: 50%;
+}
+.oo{
+    font-size: 2em;
+    border:4px solid black;
+    padding: 2em;
+    text-align:center;
+    color:blue;
+}
+#float{
+    border:10px solid red;
+    padding: 15px;
+   
+}
+.floata{
+         width:25%;
+         background-color: aqua;
+         float:left;
+        
+         
+}
+.floatb{
+         width:25%;
+         background-color: burlywood;
+         float:left;
+         /* padding: 10px; */
+        
+}
+.floatc{
+         width:25%;
+         background-color: rebeccapurple;
+         float:left;
+         /* padding: 10px; */
+         
+}
+.floatd{
+         width:25%;
+         background-color: yellow;
+         float:left;
+         /* padding: 10px; */
+}
+.clearfix{
+       clear:both;
+}
+.hy{
+    border: 8px solid green;
+    margin-top: 20px;
+    margin-right: 500px;
+    padding: 0px 20px 20px 20px;
+}
+.re{
+     border: 3px solid red;
+     background-color: lightskyblue;
+     /* position: absolute; */
+     /* top: 0px; */
+     /* right:0; */
+}
+.pag{
+    color:beige;
+     background-color: black;
+}
+.r1{
+    border:3px solid blueviolet;
+    background-color: bisque;
+
+}
+.reco{
+     border:4px double red;
+     margin-right: 50rem;
+     margin-top: 20px;
+     text-align: center;
+}
+.red:checked{
+    accent-color: red;
+}
+.green{
+    accent-color: green;
+}
+.blue{
+    accent-color: blue;
+}
+.tv{ 
+    border:4px double blue;
+}
+.large{
+     width:50%;
+     border:4px solid red;
+     background-color:greenyellow ;
+     text-align: center;
+}
+/* @media(min-width:500px) and ( max-width:750px){
+    .large{
+        font-size: 5px;
+        background:lightseagreen ;
+    }
+}
+@media(min-width:751px) and ( max-width:1000px){
+    .large{
+        background:#ff0000;
+    }
+}
+@media all and (max-width:500px){
+    .large{
+        color: maroon;
+    }
+} */
+.flexv{
+     border: 10px solid #222;
+     display: flex;
+     width: 80rem;
+     height: 35rem;
+     /* flex-direction: column; */
+     /* flex-direction: column-reverse; */
+     /* flex-direction: row-reverse; */
+     /* flex-wrap: wrap-reverse; */
+     /* flex-wrap: wrap; */
+     /* justify-content:space-around; */
+     /* justify-content: space-between; */
+     /* justify-content: flex-end; */
+     /* align-items: flex-end; */
+     /* align-items: center; */
+     /* align-items:flex-start; */
+     /* align-items:self-start; */
+     /* align-items: self-end; */
+     /* justify-content:space-evenly; */
+     /* flex-flow: column nowrap; */
+     margin-bottom: 2rem;
+     
+}
+.bov{
+     border: 1px solid #666;
+     width: 200px;
+     /* flex-grow:1; */
+     
+}
+.box-1{
+     background: lightskyblue;
+     /* align-self: flex-start; */
+     /* order: 2; */
+     /* flex-grow: 10; */
+     /* flex-shrink: 2; */
+     /* flex: 1 2 3 400px; */
+}
+.box-2{
+     background:lightcoral;
+     /* align-self: center; */
+     /* order:1; */
+     /* flex-grow: 5; */
+     /* flex-shrink: 3; */
+     /* flex: 500px; */
+     
+}
+.box-3{
+     background: lightgray;
+     /* align-self: center; */
+     /* justify-content: space-around; */
+     /* order: 0; */
+     /* flex-shrink: 4; */
+}
+.box-4{
+     background:lightsalmon;
+     /* align-self: center; */
+     /* order: 0; */
+     /* flex-shrink: 5; */
+}
+.box-5{
+     background: lightgreen;
+     /* align-self: flex-end; */
+     /* order: 5; */
+     /* flex-shrink: 1; */
+}
+.newbox{
+     width: 100px;
+     height: 100px;
+     background: red;
+     animation-name: aman;
+     animation-duration: 5s;
+     animation-delay: 3s;
+     animation-iteration-count: 2;
+     animation-fill-mode: forwards;
+     
+}
+@keyframes aman{
+     from{
+          background: red;
+     }
+     to{
+          background:blue;
+     }
+     
+}
+.newbox2{
+     width: 15px;
+     height:10px;
+     background:magenta;
+     animation-name: new;
+     animation-duration: 5s;
+     animation-iteration-count: 3;
+     /* animation-fill-mode: forwards; */
+     margin-bottom: 2rem;
+}
+@keyframes new{
+     from{
+          width:0;
+     }
+     to{
+          width:800px;
+     }
+}
+.new3{
+     width: 50px;
+     height: 50px;
+     background: maroon;
+     border-radius: 50%;
+     animation-name: chandel;
+     animation-duration:10s ;
+     position: relative;
+     animation-delay: 1s;
+     /* animation-iteration-count: infinite; */
+     /* animation-timing-function:ease-in-out ; */
+     /* animation-fill-mode: forwards; */
+     margin-bottom: 3rem ;
+} 
+@keyframes chandel{
+         0%{
+             top:0;
+             left:0;
+             background: yellow;
+         }
+         25%{
+               top:0px;
+               left:200px;
+               background: green;
+         }
+         50%{
+              top:200px;
+              left:200px;
+              background: grey;
+         }
+         75%{
+              top:200px;
+              left:0px;
+              background: brown;
+         }
+          100%{
+                top:0;
+                left:0px;
+                background: lawngreen;
+          }
+     }
+.newbox4{
+      width: 100px;
+      height: 100px;
+      background:saddlebrown;
+      transition-duration: 500ms;
+      transition-timing-function:ease-in-out ;
+      margin-bottom: 3rem;
+}
+.newbox4:hover{
+      background:lightgreen ;
+      width: 300px;
+      height: 80px;
+}
+/* ###########hello########### */
+.newbox5{
+     width: 100px;
+     height: 100px;
+     background: rgba(98, 209, 246);
+     font-size: 1.5rem;
+     margin: 100px auto;
+     transform:rotate(30deg);
+     transition: transform 2s ease-in-out ;
+     
+}
+.newbox5:hover{
+      /* transform: rotate(60deg); */
+      /* transform: scaleX(3); */
+      /* transform:translateX(50px); */
+      /* transform: translate(100px,50px); */
+      transform: skewX(50deg);
+      margin-bottom: 3rem;
+}
+/* ################flex photo########## */
+.jman{
+     text-align: center;
+     font-style: oblique;
+     flex-wrap: wrap;
+}
+*{
+     margin: 0%;
+     padding: 0%;
+     box-sizing: border-box;
+}
+
+.amanid{
+     /* border: 6px solid red; */
+     width: 28%;
+     height: 45rem;
+     margin: auto;
+     padding: 1rem;
+     border-radius: 3rem;
+     font-style: italic;
+     box-shadow: 5px 0px 20px 10px rgb(236, 65, 65);
+     margin-bottom: 5rem;
+     
+}
+.over img{
+    width: 25rem;
+      height: 45rem;
+      border-radius: 3rem;
+      
+      
+
+}
+.btn{
+      display: inline-block;
+      text-decoration:none ;
+      background:#222;
+      color: white;
+      padding: 0.5em 1.2rem;
+      
+}
+ .over2{
+     /* border: 4px solid blue; */
+     color:white;
+     position: absolute; 
+     margin-top: -25rem;
+     margin-left: 8rem;
+     text-align: center;
+     opacity: 0; 
+     /* transition: all 0.5s ease-in-out;
+     animation-name: overa;
+     animation-duration: 0.5s;   
+     animation-fill-mode: forwards; */
+}
+/* @keyframes overa{
+     from{
+          width: 0;
+     }
+     to{
+          width: 9rem;
+     }
+} */
+.over2:hover{
+     opacity: 1;
+
+}
+
+/* ########################## orange box ############################### */
+
+.orange{
+      width:250px;
+      height:250px;
+      background-color:orange;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+
+      margin-top: 2rem;
+      margin-bottom:30rem;
+}
+.orange::before{
+     content:"";
+     width:100px;
+     height:100px;
+     border-radius:50%;
+     background-color:green;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
+</head>
+<body> 
+     <h1 id="CSS" > CSS.BOXMODEL  </h1> 
+
+
+     <h1  class="css"> MY website </h1>
+     <div class="a">
+     <h2> SOMETHING ABOUT ME</h2>
+     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ispum  Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC,making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The 
+     Extremes of Good and Evil) by Cicero</p>
+    </div><br>
+   <div class="a">
+    <h2> SOMETHING ABOUT LILLY</h2>
+    <P> lorem ipsum dolor sit amet consectetur elit tenetur ea laboer quisquam fugit quam out repellat sed eum suscipit soplente offifis reciendis error cupidditate quod perferendis illum explicabo cuplice it has roots in a picese of classical latin literature from 45 bc making it over 200 year old richard mcclintock a latin profesor at hampden sydeny college in virginia looked up one of the more obscure latin words consectetur from a loremRichard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin wor
+    </div>
+     
+     <article class="box">
+      <h2 id="box"> this is box 1 </h2>
+      <p>A paragraph is a series of sentences that are organized and coherent, and are all related to a single topic. Almost every piece of writing you do that is longer than a few sentences should be organized into paragraphs. This is because paragraphs show a reader where the subdivisions of an essay begin and end, and thus help the reader see the organization of the essay and grasp its main points.</p>
+     </article>
+     <main class="box">
+      <h2 id="box"> this is box 2 </h2>
+      <p>A paragraph is a series of sentences that are organized and coherent, and are all related to a single topic. Almost every piece of writing you do that is longer than a few sentences should be organized into paragraphs. This is because paragraphs show a reader where the subdivisions of an essay begin and end, and thus help the reader see the organization of the essay and grasp its main points.</p>
+     </main>
+     <a href="aman pic.jpeg"> link 1</a>
+     <a href="https://google.co.in "> go to google</a>
+     <ul>
+        <li>home</li>
+        <li>profile</li>
+        <li>links</li>
+        <li>setting</li>
+     </ul>
+     <img src="aman pic.jpeg" class="pic">
+
+     <h1 class="home"> home about contactus</h1>
+     
+    <div class="wel">
+
+    <h2 class="we">welcome to this lovely website</h2>
+    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+    <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <h2 class="we"> home</h2>
+    <p> quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore euLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est fugiat nulla pariatur.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+    <h2 class="we">about</h2>
+    <p>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore euLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est fugiat nulla pariatur.</p>
+    <h1 class="we"> contactus</h1>
+    <p>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore euLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est fugiat nulla pariatur.</p>
+</div>
+<ul class="hu">
+    <div class="ha">
+    <li class="hj"> <a href="#">home</a></li>
+    <li  class="hj"> <a href="#">about</a></li>
+    <li  class="hj"><a href="#">contactus</a></li>
+</div>
+</ul>
+
+<hr>
+<div id="lo">
+     <h1>headding</h1>
+     <p claas=" font">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborumquis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore euLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ."</p>
+</div>
+<div id="sing">
+    <h1 class="si">sing in</h1>
+    <input type="text" placeholder="email"><br> <br>
+    <input type="password" placeholder="enter password"><br><br>
+    <a href="#">forgot password</a><br><br>
+   <div class="bu"><input type="submit"  value="login">
+</div>
+</div> 
+
+<h1 id="in"> <u>india</u></h1>
+
+<main class="ht">
+<a href="https://youtube.co.in"> you tube india</a>
+</main>
+<div class="fi">
+     <header>
+           <p> i am the first paragraph </p>
+           <p> i am the second paragraph </p>
+           <p> i am the third paragraph </p>
+           <p> i am the four paragraph </p>
+     </header>
+     <header>
+            <p> i am the first paragraph</p>
+            <p> i am the second paragraph </p>
+            <p> i am the third paragraph </p>
+            <p> i am the four paragraph </p>
+     </header>
+</div>
+<div class="ro">
+     <p class="ra">this is a lorem paragraph</p>
+     <p>this is a lorem paragraph</p>
+     <p class="ro">this is a lorem paragraph</p>
+</div>
+
+<h1 class="before"> amna chandel</h1>
+<h1 class="after"> hello aman </h1>
+<div class="te">
+<p class="there">hello there</p>
+</div>
+ <h1 class="oo"> helo </h1>
+
+<div id="float">
+<div class="floata">
+       <h1>about float</h1>
+       <p>HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content. Other technologies besides HTML are generally used to describe a web page's appearance/presentation (CSS) or functionality/behavior (JavaScript)"Hypertext" refers to links that connect web pages to one another, either within a single website or between websites. Links are a fundamental aspect of the Web. By uploading content to the Internet and linking it to pages created by other people, you become an active participant in the World Wide Web.</p>
+</div>
+<div class="floatb">
+       <h1>about float 2</h1>
+       <p>HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content. Other technologies besides HTML are generally used to describe a web page's appearance/presentation (CSS) or functionality/behavior (JavaScript)"Hypertext" refers to links that connect web pages to one another, either within a single website or between websites. Links are a fundamental aspect of the Web. By uploading content to the Internet and linking it to pages created by other people, you become an active participant in the World Wide Web.</p>
+</div>
+<div class="floatc">
+       <h1>about float 3</h1>
+       <p>HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content. Other technologies besides HTML are generally used to describe a web page's appearance/presentation (CSS) or functionality/behavior (JavaScript)"Hypertext" refers to links that connect web pages to one another, either within a single website or between websites. Links are a fundamental aspect of the Web. By uploading content to the Internet and linking it to pages created by other people, you become an active participant in the World Wide Web.</p>
+</div>
+<div class="floatd">
+       <h1>about float 4</h1>
+       <p>HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content. Other technologies besides HTML are generally used to describe a web page's appearance/presentation (CSS) or functionality/behavior (JavaScript)"Hypertext" refers to links that connect web pages to one another, either within a single website or between websites. Links are a fundamental aspect of the Web. By uploading content to the Internet and linking it to pages created by other people, you become an active participant in the World Wide Web.</p>
+</div>
+<div class="clearfix"></div>
+</div>
+<div class="hy">
+      <h1 class="re">hello there</h1>
+      <p class="pag">hey there i just want to be on this page!</p>
+      <div class="r1">
+        HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content. Other technologies besides HTML are generally used to describe a web page's appearance/presentation (CSS) or functionality/behavior (JavaScript)"Hypertext" refers to links that connect web pages to one another, either within a single website or between websites. Links are a fundamental aspect of the Web. By uploading content to the Internet and linking it to pages created by other people, you become an active participant in the World Wide Web.
+      </div>
+</div>   
+   <section class="reco">
+            <input type="radio" name="color" id="red" class="red">
+            <label for="red"> red</label> <br><br>
+            <input type="radio" name="color" id="green" class="green">
+            <label for="green"> green</label><br><br>
+            <input type="radio" name="color" id="blue" class="blue">
+            <label for="blue">blue</label>
+   </section><br><br>
+   <header>
+           <div class="large">
+               <h1> this is large heading</h1>
+               <p> this is my paragraph</p>
+           </div>     
+
+   </header>
+
+   <div class="flexv">
+    <div class="bov box-1">
+            <h1>box 1 </h1>
+            <p>Lorem Ipsum iimply dummy text of the printing and typesetting industry.</p>
+    </div>
+    <div class="bov box-2">
+               <h1> box 2</h1>
+               <p>Lorem Ipsum iimply dummy text of the printing and typesetting </p>
+    </div>
+      <div class="bov box-3">
+              <h1> box 3</h1>
+              <p>Lorem Ipsum iimply dummy text of the printing and typesetting </p>
+      </div>
+       <div class="bov box-4">
+                 <h1> box 4</h1>
+                   <p>Lorem Ipsum iimply dummy text of the printing and typesetting</p>
+      </div>
+       <div class="bov box-5">
+                 <h1> box 5</h1>
+                   <p>Lorem Ipsum iimply dummy text of the printing and typesettingk</p>
+      </div>
+ 
+</div>
+<div>
+ <div class="newbox"></div><br><br>
+ <div class="newbox2"></div>
+ <div class="new3"></div>
+ <div class="newbox4"></div>
+ <div class="newbox5"> Hello world</div>
+</div>
+<div>
+    <h1 class="jman">Hello Aman</h1>
+</div><br><br> 
+<div class="amanid">
+<div class="over">
+    <img src="./img/Image 2024-04-16 at 1.00.20 PM.jpeg" alt="image">
+<div class="over2">
+    <h1>Hi <br>i'm Aman chandel</h1><br>
+    <a href="https://codprog.com" class="btn">buy now</a>
+</div>
+</div>
+
+<section>
+      <div class="orange"></div>   
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+</body>
+</html>
